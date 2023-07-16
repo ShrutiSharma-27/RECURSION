@@ -28,3 +28,11 @@ public class Print_numbers_Recursion {
     // System.out.println(n);
     // print(n + 1);
 }
+
+//Output :
+
+// 1
+// 2
+// 3
+// 4
+// 5
