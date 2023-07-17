@@ -59,5 +59,7 @@
       * This problem can be solved by Dynamic Programming.
       * DP : if in the recursion calls, 2 or more recursion calls are doing the same work then don't compute it again and again.
       
-   3. Divide and Conquer Recurrence Relation | Example : Binary Search (because search space N is reduced by a factor, here it is 2 otherwise it can be 3, 4, etc.)
+   2. Divide and Conquer Recurrence Relation | Example : Binary Search (because search space N is reduced by a factor, here it is 2 otherwise it can be 3, 4, etc.)
       * Very efficient because a bigger N will get smaller in lesser number of steps as compared to linear.
+
+8. TIP : Make sure to return the result of a function call of the return type
