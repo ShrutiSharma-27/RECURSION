@@ -49,4 +49,4 @@
     
             |        |
 
-     Comparison      Dividing
+     Comparison          Dividing
