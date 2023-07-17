@@ -55,7 +55,7 @@
    1. Linear Recurrence Relation | Example : Fibonacci Number (here search space N is not divided but it is being subtracted linearly by 1 and 2)
       * Very inefficient because a bigger N will get smaller in very large number of steps (slowly).
       * Let's consider F(50), fibonacci number at 50th position, but IntelliJ will not give the output beacuse of so many repeated function calls. You can see youself by drawing recursive tree for F(50).
-      * The correct time complexity for above fibonacci number case is (Golden Ratio)^n | exponential | very bad
+      * The correct time complexity for above fibonacci number case is (Golden Ratio)^n = (1.618)^n | exponential | very bad
       * This problem can be solved by Dynamic Programming.
       * DP : if in the recursion calls, 2 or more recursion calls are doing the same work then don't compute it again and again.
       
