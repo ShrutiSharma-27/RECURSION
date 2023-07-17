@@ -19,3 +19,8 @@ public class Binary_search_Recursion {
         return BS(arr, target, mid+1, e);
     }
 }
+
+//Output :
+
+// -1
+// 5
