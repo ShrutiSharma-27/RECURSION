@@ -50,3 +50,11 @@
     O(1) is for 'Comparison'
     
     F(N/2) is for 'Dividing'
+
+7. Types of recurrence relation :
+   1. Linear Recurrence Relation | Example : Fibonacci Number (here search space N is not divided but it is being subtracted linearly by 1 and 2)
+      * Very inefficient because a bigger N will get smaller in very large number of steps (slowly).
+      * Let's consider F(50), fibonacci number at 50th position, but IntelliJ will not give the output beacuse of so many repeated function calls. You can see youself by drawing recursive tree for F(50).
+      * This problem can be solved by Dynamic Programming.
+   3. Divide and Conquer Recurrence Relation | Example : Binary Search (because search space N is reduced by a factor, here it is 2 otherwise it can be 3, 4, etc.)
+      * Very efficient because a bigger N will get smaller in lesser number of steps as compared to linear.
