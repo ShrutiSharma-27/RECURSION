@@ -37,7 +37,7 @@
 
 6. Working with variables in recursion :
 * Variables :
-  1. Arguments
+  1. Arguments : whatever you put here will be used in next function call like in binary search we'll reduce the size of array and the reduced size of the array can be determined by start and end integer variables so they'll go for argument.
   2. Return type
   3. Body of function
 * To get a better understanding, we're solving binary search question using recursion. Binary search involves :
@@ -55,8 +55,9 @@
    1. Linear Recurrence Relation | Example : Fibonacci Number (here search space N is not divided but it is being subtracted linearly by 1 and 2)
       * Very inefficient because a bigger N will get smaller in very large number of steps (slowly).
       * Let's consider F(50), fibonacci number at 50th position, but IntelliJ will not give the output beacuse of so many repeated function calls. You can see youself by drawing recursive tree for F(50).
+      * The correct time complexity for above fibonacci number case is (Golden Ratio)^n | exponential | very bad
       * This problem can be solved by Dynamic Programming.
       * DP : if in the recursion calls, 2 or more recursion calls are doing the same work then don't compute it again and again.
-      * The correct time complexity for fibonacci number is (Golden Ratio)^n
+      
    3. Divide and Conquer Recurrence Relation | Example : Binary Search (because search space N is reduced by a factor, here it is 2 otherwise it can be 3, 4, etc.)
       * Very efficient because a bigger N will get smaller in lesser number of steps as compared to linear.
