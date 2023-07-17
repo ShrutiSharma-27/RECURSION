@@ -46,5 +46,7 @@
   * Recurrence relation for this :
 
     F(N) = O(1) + F(N/2) , where F is a function for binary search and is applied to an array of size N
-            |        |
-     Comparison   Dividing
+    
+    O(1) is for 'Comparison'
+    
+    F(N/2) is for 'Dividing'
