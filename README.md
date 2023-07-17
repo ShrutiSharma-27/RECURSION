@@ -35,4 +35,13 @@
   * use debugger to see the flow
 * see how the values and what type of values (int, String, etc.) are returned at each step. see where the function call will come out. in the end you'll come out of the main function.
 
-6. Working with variables in recursion : 
+6. Working with variables in recursion :
+* Variables :
+  1. Arguments
+  2. Return type
+  3. Body of function
+* To get a better understanding, we're solving binary search question using recursion. Binary search involves :
+  * Comparing (whether mid is equal/smaller/greater than the target) -> O(1) 
+  * Dividing-> dividing into 2 halves //problem can be broken down into smaller ones
+  Recurrence relation for this :
+  * F(N) = O(1) + F(N/2) , where F is a function for binary search and is applied to an array of size N
