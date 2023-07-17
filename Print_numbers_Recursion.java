@@ -17,6 +17,9 @@ public class Print_numbers_Recursion {
             //recursive call
             //if you're calling a function again and again, you can treat it as a separate call in the stack
             //each function call will occupy separate memory space in stack
+
+            //this is called tail recursion.
+            //this is the last function call.
             print(n + 1);
         }
     }
