@@ -39,7 +39,7 @@
 * Variables :
   1. Arguments : whatever you put here will be used in next function call like in binary search we'll reduce the size of array and the reduced size of the array can be determined by start and end integer variables so they'll go for argument.
   2. Return type
-  3. Body of function
+  3. Body of function : the variable which is specific to body for each function call, for example mid in binary search. this mid value is not useful for the future function calls 
 * To get a better understanding, we're solving binary search question using recursion. Binary search involves :
   * Comparing (whether mid is equal/smaller/greater than the target) -> O(1) 
   * Dividing-> dividing into 2 halves //problem can be broken down into smaller ones
