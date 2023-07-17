@@ -43,5 +43,10 @@
 * To get a better understanding, we're solving binary search question using recursion. Binary search involves :
   * Comparing (whether mid is equal/smaller/greater than the target) -> O(1) 
   * Dividing-> dividing into 2 halves //problem can be broken down into smaller ones
-  Recurrence relation for this :
-  * F(N) = O(1) + F(N/2) , where F is a function for binary search and is applied to an array of size N
+  * Recurrence relation for this :
+
+    F(N) = O(1) + F(N/2) , where F is a function for binary search and is applied to an array of size N
+    
+            |       |
+
+     Comparison    Dividing
