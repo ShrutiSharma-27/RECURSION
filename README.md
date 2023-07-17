@@ -56,5 +56,7 @@
       * Very inefficient because a bigger N will get smaller in very large number of steps (slowly).
       * Let's consider F(50), fibonacci number at 50th position, but IntelliJ will not give the output beacuse of so many repeated function calls. You can see youself by drawing recursive tree for F(50).
       * This problem can be solved by Dynamic Programming.
+      * DP : if in the recursion calls, 2 or more recursion calls are doing the same work then don't compute it again and again.
+      * The correct time complexity for fibonacci number is (Golden Ratio)^n
    3. Divide and Conquer Recurrence Relation | Example : Binary Search (because search space N is reduced by a factor, here it is 2 otherwise it can be 3, 4, etc.)
       * Very efficient because a bigger N will get smaller in lesser number of steps as compared to linear.
