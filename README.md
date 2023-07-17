@@ -29,5 +29,10 @@
 * write the recurrence relation if needed.
 * draw the recursive tree.
 * about the tree :
-  a) see the flow of functions, how they're getting in stack
-  b) identify and focus on left tree calls and right tree calls
+  * see the flow of functions, how they're getting in stack
+  * identify and focus on left tree calls and right tree calls
+  * draw the tree and pointer again and again using pen and paper
+  * use debugger to see the flow
+* see how the values and what type of values (int, String, etc.) are returned at each step. see where the function call will come out. in the end you'll come out of the main function.
+
+6. Working with variables in recursion : 
