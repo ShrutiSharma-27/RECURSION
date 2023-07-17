@@ -23,3 +23,11 @@
 * Recursive tree for N=4 :
 * <img width="1027" alt="Screenshot 2023-07-17 at 1 39 13 PM" src="https://github.com/ShrutiSharma-27/RECURSION/assets/53565103/1008b319-80dc-4e5e-bfcb-18c66ecc0a61">
 * The base condition is represented by the answers we already have. In this case we already know that F(0) = 0 & F(1) = 1. This is base condition.
+
+5. How to understand and approach a problem ?
+* identify if you can break down problem into smaller problems.
+* write the recurrence relation if needed.
+* draw the recursive tree.
+* about the tree :
+  a) see the flow of functions, how they're getting in stack
+  b) identify and focus on left tree calls and right tree calls
