@@ -63,3 +63,9 @@
       * Very efficient because a bigger N will get smaller in lesser number of steps as compared to linear.
 
 8. TIP : Make sure to return the result of a function call of the return type
+
+### High Level Thinking in Recursion :
+
+Step 1 : Establish EXPECTATION.
+Step 2 : Establish FAITH (that it'll work for the values smaller than the passed value). 
+Step 3 : Link expectation and faith.
