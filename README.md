@@ -67,5 +67,7 @@
 ### High Level Thinking in Recursion :
 
 Step 1 : Establish EXPECTATION.
+
 Step 2 : Establish FAITH (that it'll work for the values smaller than the passed value). 
+
 Step 3 : Link expectation and faith.
