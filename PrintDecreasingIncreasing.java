@@ -15,3 +15,18 @@ public class PrintDecreasingIncreasing {
         System.out.println(n);
     }
 }
+// Terminal -
+// enter no : 5
+
+// Output :
+
+// 5
+// 4
+// 3
+// 2
+// 1
+// 1
+// 2
+// 3
+// 4
+// 5
