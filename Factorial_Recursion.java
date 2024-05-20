@@ -13,3 +13,8 @@ public class Factorial_Recursion {
         else return n * factorial(n-1);
     }
 }
+
+// Output :
+
+// enter no : 5
+// 120
