@@ -17,3 +17,9 @@ public class Power_lognTC_recursion {
         else return x * powerInLogTime(x,n/2) * powerInLogTime(x, n/2);
     }
 }
+
+// Output :
+
+// enter no : 7
+// enter power : 3
+// 343
