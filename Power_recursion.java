@@ -15,3 +15,9 @@ public class Power_recursion {
         return x*power(x,n-1);
     }
 }
+
+// Output :
+
+// enter no : 2
+// enter power : 5
+// 32
