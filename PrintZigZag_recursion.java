@@ -20,10 +20,15 @@ public class PrintZigZag_recursion {
     public static void pzz(int n){
         if (n==0) return;
 
-        System.out.println(n); //pre region
+        System.out.print(n+" "); //pre region
         pzz(n-1);           //left call
-        System.out.println(n); //in region
+        System.out.print(n+" "); //in region
         pzz(n-1);           //right call
-        System.out.println(n); //post region
+        System.out.print(n+" "); //post region
     }
 }
+
+// Output :
+
+// enter no : 3
+// 3 2 1 1 1 2 1 1 1 2 3 2 1 1 1 2 1 1 1 2 3 
