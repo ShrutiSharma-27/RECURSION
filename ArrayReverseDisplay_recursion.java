@@ -23,3 +23,12 @@ public class ArrayReverseDisplay_recursion {
         System.out.print(arr[idx]+" ");
     }
 }
+
+// Output :
+
+// enter no of elements : 4
+// enter element : 78
+// enter element : 12
+// enter element : 50
+// enter element : 100
+// 100 50 12 78
