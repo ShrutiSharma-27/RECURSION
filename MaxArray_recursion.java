@@ -25,3 +25,13 @@ public class MaxArray_recursion {
         else return arr[idx];
     }
 }
+
+// Output :
+
+// enter no of elements : 5
+// enter element : 6
+// enter element : 78
+// enter element : 100
+// enter element : 6
+// enter element : 13
+// 100
