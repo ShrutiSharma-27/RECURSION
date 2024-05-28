@@ -23,3 +23,13 @@ public class ArrayDisplay_recursion {
         displayArr(arr, idx+1);
     }
 }
+
+// Output : 
+
+// enter no of elements : 5
+// enter element : 12
+// enter element : 16
+// enter element : 1
+// enter element : 5
+// enter element : 25
+// 12 16 1 5 25 
