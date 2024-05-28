@@ -23,3 +23,17 @@ public class TowerOfHanoi_recursion {
         toh(n-1, t3id, t2id, t1id);
     }
 }
+
+// Output :
+
+// enter no. of disks : 3
+// enter tower1 id : 10
+// enter tower2 id : 20
+// enter tower3 id : 30
+// 1[10 -> 20]
+// 2[10 -> 30]
+// 1[20 -> 30]
+// 3[10 -> 20]
+// 1[30 -> 10]
+// 2[30 -> 20]
+// 1[10 -> 20]
