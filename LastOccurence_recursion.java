@@ -30,3 +30,14 @@ public class LastOccurence_recursion {
         } else return liisa;
     }
 }
+
+// Output :
+
+// enter no of elements : 5
+// enter element : 6
+// enter element : 89
+// enter element : 7
+// enter element : 6
+// enter element : 6
+// which element's first index you want : 6
+// 4
