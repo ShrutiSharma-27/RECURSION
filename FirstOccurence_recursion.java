@@ -30,3 +30,13 @@ public class FirstOccurence_recursion {
         }
     }
 }
+
+// Output :
+
+// enter no of elements : 4
+// enter element : 12
+// enter element : 4
+// enter element : 4
+// enter element : 4
+// which element's first index you want : 4
+// 1
