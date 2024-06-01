@@ -36,3 +36,15 @@ public class All_indicesOfElement_recursion {
         return i_arr; //extracted common part
     }
 }
+
+// Output :
+
+// enter no of elements : 6
+// enter element : 21
+// enter element : 22
+// enter element : 22
+// enter element : 21
+// enter element : 22
+// enter element : 32
+// which element's indices you want : 22
+// [1, 2, 4]
