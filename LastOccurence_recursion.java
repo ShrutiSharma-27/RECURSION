@@ -13,7 +13,7 @@ public class LastOccurence_recursion {
             arr[i] = input.nextInt();
         }
 
-        System.out.print("which element's first index you want : ");
+        System.out.print("which element's last index you want : ");
         int x = input.nextInt();
 
         System.out.println(lastIndex(arr,0, x));
@@ -39,5 +39,5 @@ public class LastOccurence_recursion {
 // enter element : 7
 // enter element : 6
 // enter element : 6
-// which element's first index you want : 6
+// which element's last index you want : 6
 // 4
