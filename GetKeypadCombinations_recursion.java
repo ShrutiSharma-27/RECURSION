@@ -13,7 +13,7 @@ public class GetKeypadCombinations_recursion {
 
     public static ArrayList<String> getKC(String s){ //calling for 678
         if (s.length()==0){
-            ArrayList<String> bres = new ArrayList<>();
+            ArrayList<String> bres = new ArrayList<>(); //base result
             bres.add("");
             return bres;
         }
@@ -24,7 +24,7 @@ public class GetKeypadCombinations_recursion {
         ArrayList<String> rres = getKC(ros); //recursion result for 78
         ArrayList<String> mres = new ArrayList<>(); //my result for 678
 
-        String to_be_attached = codes[ch-'0'];
+        String to_be_attached = codes[ch-'0']; //to get int value 6 instead of its ASCII value 54
         int len = to_be_attached.length();
 
         for (int i=0 ; i<len ; i++){
@@ -36,3 +36,8 @@ public class GetKeypadCombinations_recursion {
         return mres;
     }
 }
+
+//Output :
+
+// enter String : 678
+// [ptv, ptw, ptx, puv, puw, pux, qtv, qtw, qtx, quv, quw, qux, rtv, rtw, rtx, ruv, ruw, rux, stv, stw, stx, suv, suw, sux]
