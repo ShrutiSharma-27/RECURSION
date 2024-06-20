@@ -21,3 +21,13 @@ public class Str_Permutations_recursion {
     }
 
 }
+
+// Output:
+
+// enter string : abc
+// abc
+// acb
+// bac
+// bca
+// cab
+// cba
